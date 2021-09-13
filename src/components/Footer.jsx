@@ -7,18 +7,11 @@ function Footer() {
   return (
     <footer>
       <div className="container">
-        <Link
-          className="link"
-          to="https://www.linkedin.com/in/frank-taylor-024895136"
-        >
+        <a href="https://www.linkedin.com/in/frank-taylor-024895136">
           Linkedin
-        </Link>
-        <Link className="link" to="https://github.com/taylfw">
-          Git Hub
-        </Link>
-        <Link className="link" to="https://www.codewars.com/users/taylfw88">
-          Code Wars
-        </Link>
+        </a>
+        <a href="https://github.com/taylfw">Git Hub</a>
+        <a href="https://www.codewars.com/users/taylfw88">Code Wars</a>
       </div>
     </footer>
   );

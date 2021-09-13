@@ -1,26 +1,15 @@
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import React from "react";
+import reactDom from "react-dom";
+
+import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 function PortNav() {
   return (
     <div className="container">
-      <Link className="link" to="/numberGen/index.html">
-        Number Generator
-      </Link>
-
-      <Link className="link" to="/backgroundButton/index.html">
-        Background Generator
-      </Link>
-
-      <Link className="link" to="/snake/index.html">
-        Snake
-      </Link>
-
-      <Link className="link" to="/retrodraw/index.html">
-        Retro Draw!
-      </Link>
-
-      <Link className="link" to="/Calculator/index.html">
-        Calculator
-      </Link>
+      <a href="/numberGen/index.html">Number Generator</a>
+      <a href="backgroundButton/index.html">Background Generator</a>
+      <a href="/snake/index.html">Snake</a>
+      <a href="https://frank-taylor-retrodraw.netlify.app/">Retro Draw!</a>
+      <a href="/Calculator/index.html">Calculator</a>
     </div>
   );
 }

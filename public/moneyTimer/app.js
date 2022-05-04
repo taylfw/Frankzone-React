@@ -6,7 +6,10 @@ function timer() {
 
   changeColor("greenyellow");
   setInterval(function () {
-    document.getElementById("timer").innerHTML = "+ $" + seconds;
+    document.getElementById("timer").innerHTML = new Intl.NumberFormat(
+      "en-US",
+      { style: "currency", signDisplay: "always", currency: "USD" }
+    ).format(seconds);
     seconds += moneyPerSec(document.getElementById("userInput").value);
   }, 1000);
 }

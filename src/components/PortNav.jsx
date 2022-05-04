@@ -24,11 +24,22 @@ function PortNav() {
       </div>
 
       <div className="container">
-        <a href="https://grocerylisthacker.herokuapp.com/" className="link">
+        <a
+          href="https://grocerylisthacker.herokuapp.com/"
+          className="link"
+          target="_blank"
+        >
           Grocery List Combinator
         </a>
-        <a href="https://sleepytime-earplugs.herokuapp.com/" className="link">
+        <a
+          href="https://sleepytime-earplugs.herokuapp.com/"
+          className="link"
+          target="_blank"
+        >
           Sleepy Time Earplugs
+        </a>
+        <a href="/moneyTimer/index.html" className="link">
+          Money Timer
         </a>
       </div>
     </div>

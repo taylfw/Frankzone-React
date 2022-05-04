@@ -19,14 +19,19 @@ function App() {
 
       <Route exact path="/">
         <div>
+          <div className="welcome">
+            <h1>Welcome to the Frank Zone!</h1>
+          </div>
           <img src={image} alt="Frank's picture."></img>
           <Blurb></Blurb>
         </div>
       </Route>
 
       <Route path="/portfolio">
-        <Portfolio></Portfolio>
-        <PortNav></PortNav>
+        <div className="outer-container">
+          <Portfolio></Portfolio>
+          <PortNav></PortNav>
+        </div>
       </Route>
 
       <Route path="/about">

@@ -7,7 +7,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 function Portfolio() {
   return (
-    <div>
+    <div className="mid-container">
       <div className="welcome">
         <h1>Portfolio</h1>
       </div>

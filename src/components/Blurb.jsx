@@ -5,17 +5,16 @@ function Blurb() {
         <div className="blurb">
           <article>
             <p className="landing-p">
-              <b>Hi, I’m Frank! </b>
+              <b>Hi, I’m Frank! 🦥️ </b>
             </p>
             <p className="landing-p">
               <b>
-                I'm just a dude, trying to mow his lawn and barbecue. I made
-                this website to show the world my development skills and my wide
-                range of interests.
-              </b>{" "}
+                I'm an Infrastructure specialist. I like using technologies to
+                automate workflows. I make web apps in my free time.
+              </b>
             </p>
             <p className="landing-p">
-              <b>Now built with React!</b>
+              <b>Check out my stuff!</b>
             </p>
           </article>
         </div>

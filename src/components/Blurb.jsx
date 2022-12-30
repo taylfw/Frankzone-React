@@ -9,7 +9,7 @@ function Blurb() {
             </p>
             <p className="landing-p">
               <b>
-                I'm an Infrastructure specialist. I like using technologies to
+                I'm a Systems Administrator. I like using technologies to
                 automate workflows. I make web apps in my free time.
               </b>
             </p>
